@@ -30,8 +30,8 @@ section{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 280px;
-    height: 565px;
+    width: 300px;
+    height: 555px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
     text-align: center;
@@ -40,12 +40,8 @@ section{
     transition-timing-function: ease;
 }
 
-h1{
-    padding: 10px;
-}
-
 #img {
-    width: 280px;
+    width: 300px;
     height: 220px;
     background: url(../img/pexels-karola-g-4862957.jpg) no-repeat center center;
     border-radius: 20px 20px 0px 0px;
@@ -65,8 +61,21 @@ form{
     margin: 5px 0px;
 }
 
+.campo img{
+    width: 30px;
+    transform: translateY(5px);
+}
+
 .campo label{
     display: none;
+}
+
+.campo input{
+    width: calc(100% - 16%);
+    height: 86%;
+    border-radius: 10px;
+    border: none;
+    transform: translateY(-5px);
 }
 
 #send {
