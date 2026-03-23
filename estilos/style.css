@@ -58,7 +58,6 @@ form{
     width: 250px;
     height: 40px;
     border-radius: 10px;
-    margin: 5px 0px;
 }
 
 .campo img{
@@ -75,7 +74,9 @@ form{
     height: 86%;
     border-radius: 10px;
     border: none;
-    transform: translateY(-5px);
+    transform: translateY(-3px);
+    font-size: .9em;
+    padding: 0px 5px;
 }
 
 #send {
